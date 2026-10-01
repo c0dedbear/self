@@ -41,7 +41,7 @@
       floatSounds: 'Своя атмосфера', floatSoundsBody: 'Звуки в вашем сочетании.',
       floatWatch: 'Момент на запястье', floatWatchBody: 'Телефон можно оставить дома.',
       sceneCaption: 'Меньше шума. Больше пространства.',
-      navWhy: "Зачем Self",
+      navWhy: "Зачем",
       everydayEyebrow: "НЕМНОГО МЕСТА ДЛЯ СЕБЯ В ШУМНОМ МИРЕ",
       everydayTitle: "День требует многого.",
       everydayAccent: "Оставьте место для себя.",

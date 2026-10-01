@@ -32,6 +32,10 @@
 .topic-closing { text-align: center; padding: 52px 28px; border-radius: 32px; margin-bottom: 60px; }
 .topic-closing h2 { font-size: clamp(30px, 4vw, 44px); margin: 0 0 22px; }
 .topic-closing p { color: var(--secondary); max-width: 600px; margin: 0 auto 28px; }
+@media(prefers-color-scheme: dark) {
+  .breadcrumbs li + li::before { color: var(--secondary); }
+  .topic-visual { background: radial-gradient(ellipse, #294c3d, #34344940 70%, transparent); }
+}
 @media(max-width: 1000px) {
   .topic-hero { gap: 30px; }
   .topic-visual { padding: 20px; }

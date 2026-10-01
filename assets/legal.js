@@ -2,8 +2,8 @@
   const root = document.documentElement;
   const buttons = document.querySelectorAll('[data-language]');
   const copy = {
-    en: { skip: 'Skip to content', privacy: 'Privacy Policy', terms: 'Terms of Service', documents: 'Documents' },
-    ru: { skip: 'Перейти к содержимому', privacy: 'Конфиденциальность', terms: 'Условия использования', documents: 'Документы' },
+    en: { skip: 'Skip to content', privacy: 'Privacy Policy', terms: 'Terms of Service', documents: 'Documents', developer: 'Developer' },
+    ru: { skip: 'Перейти к содержимому', privacy: 'Конфиденциальность', terms: 'Условия использования', documents: 'Документы', developer: 'Разработчик' },
   };
   let language = 'en';
   let saved;

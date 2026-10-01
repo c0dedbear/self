@@ -383,9 +383,6 @@ html[lang="ru"] h1 { font-size: clamp(51px, 6.6vw, 84px); }
 .practice-meaning h3 { font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -.045em; margin: 14px 0 20px; }
 .practice-meaning > p { font-size: 14px; color: var(--secondary); line-height: 1.85; }
 .practice-meaning > p + p { margin-top: 16px; }
-.practice-evidence { border-top: 1px solid #cfded9; padding-top: 18px; margin-top: 25px; }
-.practice-evidence p { font-size: 11px; line-height: 1.8; color: var(--secondary); }
-.practice-evidence .text-link { font-size: 11px; margin-top: 12px; }
 .panic-context { display: grid; grid-template-columns: .85fr 1.15fr; gap: 48px; padding: 38px 42px; margin-bottom: 26px; border-radius: 32px; background: linear-gradient(130deg, #f1ecf6a6, #ffffffa6); }
 .panic-context .eyebrow { color: #886780; }
 .panic-context h3 { font-size: 32px; font-weight: 500; line-height: 1.25; letter-spacing: -.045em; margin-top: 16px; }
@@ -407,7 +404,6 @@ html[lang="ru"] h1 { font-size: clamp(51px, 6.6vw, 84px); }
   .practice-orbit span:nth-child(2) { inset: 12px; }
   .practice-orbit span:nth-child(3) { inset: 24px; }
   .practice-orbit img { width: 40px; }
-  .practice-evidence { clear: both; }
   .panic-context { grid-template-columns: minmax(0, 1fr); gap: 22px; }
 }
 @media(max-width: 600px) {
